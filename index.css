@@ -270,75 +270,37 @@ header {
 	padding: 0.25rem 1rem;
 }
 
-
-.decker {
-	background-color: #e1ebe6;
-	width: 100%;
+.carousel {
 	display: flex;
-    
-}
-
-.deckerinfo {
-	width: 50%;
-	padding: 5rem 0 5rem 4rem;
-}
-
-.deckertitle {
-	margin: 10rem 2rem 3rem;
-	font-size: 3rem;
-	font-weight: 600;
-}
-
-.deckertitle .last {
-	color: #f6b400;
-}
-
-.deckertitle span {
-	display: block;
-}
-
-.subtitle {
-	margin-left: 2rem;
-	margin-bottom: 8rem;
-	font-size: 1.35rem;
-	font-weight: 300;
-	color: #302f2fce;
-}
-
-.scroller{
-	margin-left: 3rem;
-}
-
-.circle {
-	width: 50%;
-	display: inline-flex;
+	background-color: #E1EBE6;
+	padding: 100px 5% 100px 5%;
 	align-items: center;
-	justify-content: space-around;
-}
-
-.circle div {
-	width: 1.5rem;
-	height: 1.5rem;
-	border: none;
-	border-radius: 50%;
-	background-color: #302f2fce;
-}
-
-.circle .circle1 {
-	background-color: #f66f00;
-}
-
-.navigation {
-	display: inline-block;
-	color: #f6b400;
-	font-size: 2.5rem;
-	width: 30%;
-	margin-left: 2rem;
-	background-color: transparent;
-	outline: none;
-	border: none;
-	cursor: pointer;
-}
+  }
+  
+  .carousel div {
+	width: 50%;
+  
+  }
+  
+  .carousel div h2 {
+	font-weight: 700;
+	font-size: 100px;
+	padding-bottom: 20px;
+  }
+  
+  .carousel div p {
+	color: rgb(73, 73, 73);
+	font-size: 28px;
+	font-weight: 500;
+	padding-bottom: 150px;
+  }
+  
+  .carousel div i {
+	padding-right: 25px;
+  }
+  .carousel div img {
+	width: auto;
+  }
 
 .mobile {
 	width: 100%;
