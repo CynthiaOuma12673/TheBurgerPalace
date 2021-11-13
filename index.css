@@ -270,35 +270,35 @@ header {
 	padding: 0.25rem 1rem;
 }
 
-.carousel {
+.decker{
 	display: flex;
 	background-color: #E1EBE6;
 	padding: 100px 5% 100px 5%;
 	align-items: center;
   }
   
-  .carousel div {
+  .decker div {
 	width: 50%;
   
   }
   
-  .carousel div h2 {
+  .decker div h2 {
 	font-weight: 700;
 	font-size: 100px;
 	padding-bottom: 20px;
   }
   
-  .carousel div p {
+  .decker div p {
 	color: rgb(73, 73, 73);
 	font-size: 28px;
 	font-weight: 500;
 	padding-bottom: 150px;
   }
   
-  .carousel div i {
+  .decker div i {
 	padding-right: 25px;
   }
-  .carousel div img {
+  .dec div img {
 	width: auto;
   }
 
